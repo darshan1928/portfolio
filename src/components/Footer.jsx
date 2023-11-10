@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <footer className="py-4 bg-gray-800 text-white text-center">
+      <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
   )
 }
