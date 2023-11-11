@@ -21,7 +21,7 @@ export default function Skills({isDarkMode}) {
     <section className={`py-10 ${
       isDarkMode ? "bg-dark text-white" : "bg-light text-black"
     } flex flex-col items-center`}>
-    <h2 className="text-2xl  font-bold  mb-6">What I Am Good At?</h2>
+    <h2 className="text-4xl  font-bold  mb-10 border-b-2 border-orange-500">What I Am Good At?</h2>
 
     <ul className="list-disc ml-0 mb-8 flex flex-wrap justify-center">
       {/* Display the first 6 items in a row */}

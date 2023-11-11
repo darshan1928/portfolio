@@ -5,17 +5,19 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage";
 import { useState } from "react";
+import Contact from "./components/Contact";
 
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className={`${isDarkMode? 'bg-dark text-white':'bg-white text-black'}`}>
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
       <HomePage  isDarkMode={isDarkMode}/>
       <Skills   isDarkMode={isDarkMode}/>
       <Projects  isDarkMode={isDarkMode} />
       <AboutMe  isDarkMode={isDarkMode} />
+      <Contact isDarkMode={isDarkMode}/>
       <Footer  isDarkMode={isDarkMode} />
     </div>
   );

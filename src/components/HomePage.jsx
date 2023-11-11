@@ -39,7 +39,7 @@ export default function HomePage({isDarkMode}) {
 
   <div className="flex items-center justify-center md:justify-start mt-4">
   <button className={` border ${isDarkMode ?' border-white  hover:bg-white hover:text-black hover:border-white ' : ' border-black  hover:bg-black hover:text-white hover:border-black'} font-semibold py-3 px-8 md:py-4 md:px-10 rounded-full flex items-center transition-all duration-300 ease-in-out `}>
-  <span className="mr-2 text-base md:text-lg">Download</span>
+  <span className="mr-2 text-base md:text-lg">Resume</span>
   <HiOutlineDownload size={24} /> {/* Adjust the size as needed */}
 </button>
 
