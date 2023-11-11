@@ -13,10 +13,10 @@ export default function App() {
     <div className="bg-gray-100 min-h-screen">
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
       <HomePage  isDarkMode={isDarkMode}/>
-      <Skills />
-      <Projects />
-      <AboutMe />
-      <Footer />
+      <Skills   isDarkMode={isDarkMode}/>
+      <Projects  isDarkMode={isDarkMode} />
+      <AboutMe  isDarkMode={isDarkMode} />
+      <Footer  isDarkMode={isDarkMode} />
     </div>
   );
 }
