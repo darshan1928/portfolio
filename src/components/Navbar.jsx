@@ -12,7 +12,7 @@ export default function Navbar({ isDarkMode, setIsDarkMode }) {
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
   };
-  const logoSrc = isDarkMode ? "/darshan-logo-white.png" : "/darshan-logo-png.png";
+
   return (
     <>
       <nav
@@ -24,7 +24,7 @@ export default function Navbar({ isDarkMode, setIsDarkMode }) {
           className={`flex items-center  `}
         >
           <img
-  src={logoSrc}
+ src={`${isDarkMode ? "./darshan-logo-white.png" : "./darshan-logo-png.png"} `}
   alt="Darshan"
   style={{ width: "6.8em", height: "2.5em", objectFit: "cover" }}
 />
