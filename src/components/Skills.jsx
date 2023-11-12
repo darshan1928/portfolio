@@ -87,16 +87,28 @@ export default function Skills({isDarkMode}) {
 
     {/* Points and Arrow Icons */}
     <div className="flex flex-col items-start mb-4 text-left mx-4 sm:mx-0">
-  <div className="flex items-center mb-2">
+  <div className="flex items-center ">
     <BsArrowRightCircleFill className="text-2xl mt-1 mr-2" />
-    <p className="text-lg md:text-xl lg:text-2xl font-medium">
+    <p className="text-lg md:text-xl lg:text-2xl font-small mb-1 ">
       Building Restful API in Express
     </p>
   </div>
   <div className="flex items-center">
     <BsArrowRightCircleFill className="text-2xl mt-1 mr-2" />
-    <p className="text-lg md:text-xl lg:text-2xl font-medium">
+    <p className="text-lg md:text-xl lg:text-2xl font-small mb-1">
       Building Responsive Single Page Application
+    </p>
+  </div>
+  <div className="flex items-center">
+    <BsArrowRightCircleFill className="text-2xl mt-1 mr-2" />
+    <p className="text-lg md:text-xl lg:text-2xl font-small mb-1">
+    Version Control and Collaboration
+    </p>
+  </div>
+  <div className="flex items-center">
+    <BsArrowRightCircleFill className="text-2xl mt-1 mr-2" />
+    <p className="text-lg md:text-xl lg:text-2xl font-small mb-1">
+    Authentication and Authorization
     </p>
   </div>
 </div>

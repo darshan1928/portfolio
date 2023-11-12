@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage";
 import { useState } from "react";
 import Contact from "./components/Contact";
+import "./App.css"
 
 
 export default function App() {

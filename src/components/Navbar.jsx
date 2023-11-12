@@ -59,17 +59,17 @@ export default function Navbar({ isDarkMode, setIsDarkMode }) {
         >
           <div className="mb-4">
             <span className="text-lg font-semibold  hover:text-red-500 cursor-pointer">
-              SKILLS
+            <a href="#skills" className="nav-link">SKILLS</a>
             </span>
           </div>
           <div className="mb-4">
             <span className="text-lg font-semibold  hover:text-red-500 cursor-pointer">
-              PROJECTS
+            <a href="#projects" className="nav-link">PROJECTS</a>
             </span>
           </div>
           <div className="mb-4">
             <span className="text-lg font-semibold  hover:text-red-500 cursor-pointer">
-              ABOUT ME
+            <a href="#aboutMe" className="nav-link">ABOUT ME</a>
             </span>
           </div>
           <div className="mb-4" onClick={toggleDarkMode}>
