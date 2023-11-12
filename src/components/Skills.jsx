@@ -16,7 +16,10 @@ import {IoLogoFigma} from "react-icons/io5"
 
 
 
+
 export default function Skills({isDarkMode}) {
+
+  const logoSrc = isDarkMode ? "/express-white.png" : "/express-black.png";
   return (
     <section id="skills" className={`py-10 ${
       isDarkMode ? "bg-dark text-white" : "bg-light text-black"
@@ -51,17 +54,23 @@ export default function Skills({isDarkMode}) {
         </div>
       </li>
       <li className="flex items-center mb-4 flex-shrink-0 mr-6">
+      <div className="rounded-full p-3">
+      <img src={logoSrc} alt="Express.js"   style={{ width: "2.5em", height: "2.5em",  }} className="text-4xl md:text-5xl lg:text-6xl" />
+      </div>
+    </li>
+    <li className="flex items-center mb-4 flex-shrink-0 mr-6">
+        <div className="rounded-full   p-3">
+          <DiMongodb className=" text-4xl md:text-5xl lg:text-6xl" />
+        </div>
+      </li>
+      <li className="flex items-center mb-4 flex-shrink-0 mr-6">
         <div className="rounded-full   p-3">
           <BsGit className=" text-4xl md:text-5xl lg:text-6xl" />
         </div>
       </li>
 
       {/* Center the remaining items below */}
-      <li className="flex items-center mb-4 flex-shrink-0 mr-6">
-        <div className="rounded-full   p-3">
-          <DiMongodb className=" text-4xl md:text-5xl lg:text-6xl" />
-        </div>
-      </li>
+     
       <li className="flex items-center mb-4 flex-shrink-0 mr-6">
         <div className="rounded-full  p-3">
           <SiSocketdotio className=" text-4xl md:text-5xl lg:text-6xl" />

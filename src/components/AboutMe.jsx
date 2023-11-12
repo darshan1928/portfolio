@@ -3,6 +3,7 @@ import { FaCode } from "react-icons/fa";
 import { IoSchool } from "react-icons/io5";
 
 export default function AboutMe({ isDarkMode }) {
+  console.log("Rendering AboutPage")
   return (
     <section
       id="aboutMe"

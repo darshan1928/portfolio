@@ -3,8 +3,9 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { HiOutlineDownload } from 'react-icons/hi'
 
 export default function HomePage({isDarkMode}) {
+  console.log("Rendering HomePage")
   return (
-<div className={`${isDarkMode ? 'bg-dark text-white' : 'bg-light text-black'} flex  flex-col md:flex-row justify-center items-center h-screen `}>
+<div id='homepage' className={`${isDarkMode ? 'bg-dark text-white' : 'bg-light text-black'} flex  flex-col md:flex-row justify-center items-center h-screen `}>
   {/* Left Side */}
 
   <div className="md:w-1/2 p-6 md:p-12 text-center md:text-left">
