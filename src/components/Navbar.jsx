@@ -31,9 +31,16 @@ export default function Navbar({ isDarkMode, setIsDarkMode }) {
           )}
         </div>
         <div className="hidden md:flex items-center">
-          <div className="font-semibold ml-auto">SKILLS</div>
-          <div className="font-semibold ml-4">PROJECTS</div>
-          <div className="font-semibold ml-4">ABOUT ME</div>
+        <div className="font-semibold ml-auto">
+  <a href="#skills" className="nav-link">SKILLS</a>
+</div>
+<div className="font-semibold ml-4">
+  <a href="#projects" className="nav-link">PROJECTS</a>
+</div>
+<div className="font-semibold ml-4">
+  <a href="#aboutMe" className="nav-link">ABOUT ME</a>
+</div>
+
           <div className=" ml-4" onClick={toggleDarkMode}>
             {isDarkMode ? (
               <FaSun className="text-xl" />

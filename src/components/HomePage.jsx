@@ -38,7 +38,7 @@ export default function HomePage({isDarkMode}) {
 
 
   <div className="flex items-center justify-center md:justify-start mt-4">
-  <button className={` border ${isDarkMode ?' border-white  hover:bg-white hover:text-black hover:border-white ' : ' border-black  hover:bg-black hover:text-white hover:border-black'} font-semibold py-3 px-8 md:py-4 md:px-10 rounded-full flex items-center transition-all duration-300 ease-in-out `}>
+  <button  onClick={() =>  window.open("./Darshan_Raj_Entri.pdf", '_blank')} className={` border ${isDarkMode ?' border-white  hover:bg-white hover:text-black hover:border-white ' : ' border-black  hover:bg-black hover:text-white hover:border-black'} font-semibold py-3 px-8 md:py-4 md:px-10 rounded-full flex items-center transition-all duration-300 ease-in-out `}>
   <span className="mr-2 text-base md:text-lg">Resume</span>
   <HiOutlineDownload size={24} /> {/* Adjust the size as needed */}
 </button>
@@ -55,7 +55,7 @@ export default function HomePage({isDarkMode}) {
  <div className="flex justify-center md:items-center h-screen ">
   <div className="relative">
     <img
-      src="https://img.freepik.com/premium-photo/cartoon-illustration-man-with-beard-using-laptop-generative-ai_958165-24539.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1697587200&semt=ais"  // Replace with your image URL
+      src="./cartoon-illustration-man-with-beard-using-laptop-generative-ai_958165-24539.png"  // Replace with your image URL
       alt="Profile"
       className="w-80 h-80 object-cover rounded-full outline-8 border-c4c4c4"
     />

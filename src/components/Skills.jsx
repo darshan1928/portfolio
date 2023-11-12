@@ -18,7 +18,7 @@ import {IoLogoFigma} from "react-icons/io5"
 
 export default function Skills({isDarkMode}) {
   return (
-    <section className={`py-10 ${
+    <section id="skills" className={`py-10 ${
       isDarkMode ? "bg-dark text-white" : "bg-light text-black"
     } flex flex-col items-center`}>
     <h2 className="text-4xl  font-bold  mb-10 border-b-2 border-orange-500">What I Am Good At?</h2>
@@ -86,20 +86,21 @@ export default function Skills({isDarkMode}) {
     </ul>
 
     {/* Points and Arrow Icons */}
-    <div className="flex flex-col items-start mb-4 text-left">
-      <div className="flex items-center mb-2">
-        <BsArrowRightCircleFill className="text-2xl  mt-1 mr-2" />
-        <p className="text-lg  md:text-xl lg:text-2xl font-medium">
-          Building Restful API in Express
-        </p>
-      </div>
-      <div className="flex items-center">
-        <BsArrowRightCircleFill className="text-2xl  mt-1 mr-2" />
-        <p className="text-lg  md:text-xl lg:text-2xl font-medium">
-          Building Responsive Single Page Application
-        </p>
-      </div>
-    </div>
+    <div className="flex flex-col items-start mb-4 text-left mx-4 sm:mx-0">
+  <div className="flex items-center mb-2">
+    <BsArrowRightCircleFill className="text-2xl mt-1 mr-2" />
+    <p className="text-lg md:text-xl lg:text-2xl font-medium">
+      Building Restful API in Express
+    </p>
+  </div>
+  <div className="flex items-center">
+    <BsArrowRightCircleFill className="text-2xl mt-1 mr-2" />
+    <p className="text-lg md:text-xl lg:text-2xl font-medium">
+      Building Responsive Single Page Application
+    </p>
+  </div>
+</div>
+
   </section>
 
   );

@@ -4,7 +4,7 @@ import { IoSchool } from "react-icons/io5";
 
 export default function AboutMe({isDarkMode}) {
   return (
-    <section className={`py-10 flex flex-col md:flex-row mx-auto w-3/4 ${
+    <section id="aboutMe" className={`py-10 flex flex-col md:flex-row mx-auto w-3/4 ${
       isDarkMode ? "bg-dark text-white" : "bg-light text-black"
     }`}>
       {/* First Half (About Me) */}
