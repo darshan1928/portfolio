@@ -55,7 +55,7 @@ export default function Skills({isDarkMode}) {
       </li>
       <li className="flex items-center mb-4 flex-shrink-0 mr-6">
       <div className="rounded-full p-3">
-      <img src={logoSrc} alt="Express.js"   style={{ width: "2.5em", height: "2.5em",  }} className="text-4xl md:text-5xl lg:text-6xl" />
+      <img src={logoSrc} alt="Express.js"  style={{ width: "2.5em"  }} className="text-4xl md:text-5xl lg:text-6xl" />
       </div>
     </li>
     <li className="flex items-center mb-4 flex-shrink-0 mr-6">

@@ -12,7 +12,7 @@ export default function Navbar({ isDarkMode, setIsDarkMode }) {
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
   };
-  const logoSrc = isDarkMode ? "./darshan-logo-white.png" : "./darshan-logo-png.png";
+  const logoSrc = isDarkMode ? "/darshan-logo-white.png" : "/darshan-logo-png.png";
   return (
     <>
       <nav
